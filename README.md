@@ -1,6 +1,6 @@
-# Create Protoface App (OpenAI Realtime)
+# Protoface Quickstart for Open AI realtime
 
-This starter adds a realtime Protoface avatar to an OpenAI Realtime conversation in a Next.js app.
+This quickstart is an example of how to create a Protoface Avatar that runs in a Next.js app with the Protoface Node plugin and Open AI Realtime. 
 
 ## About Protoface
 
@@ -14,9 +14,7 @@ To see quickstarts for other platforms, visit the [quickstart repo](https://gith
 
 ## Usage
 
-1. Rename `.env.example` to `.env` and paste your Protoface, LiveKit, and OpenAI values.
-
-If you want to try Protoface but do not have API access yet, reach out to the Protoface team and we can help you get set up.
+1. Rename `.env.example` to `.env` and paste your Protoface API key, your LiveKit secrets, and your OpenAI API key and chosen model.
 
 ```js
 PROTOFACE_API_KEY="PROTOFACE-API-KEY"
@@ -26,7 +24,7 @@ LIVEKIT_API_SECRET="LIVEKIT-API-SECRET"
 
 OPENAI_API_KEY="OPENAI-API-KEY"
 NEXT_PUBLIC_OPENAI_REALTIME_MODEL="gpt-realtime-2"
-NEXT_PUBLIC_PROTOFACE_AVATAR_ID="av_stock_001"
+NEXT_PUBLIC_PROTOFACE_AVATAR_ID="av_stock_001" // Optional (defaults to av_stock_001)
 ```
 
 2. Install packages.
@@ -40,8 +38,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-4. Set the OpenAI Realtime model and Protoface avatar ID in `.env`. `NEXT_PUBLIC_PROTOFACE_AVATAR_ID` is optional and defaults to `av_stock_001`.
 
 ## How It Works
 
