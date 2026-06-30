@@ -1,6 +1,6 @@
-# Protoface Quickstart for Open AI realtime
+# Protoface Quickstart for Open AI Realtime
 
-This quickstart is an example of how to create a Protoface Avatar that runs in a Next.js app with the Protoface Node plugin and Open AI Realtime. 
+This quickstart is the easiest way to serve a Protoface Avatar connected to OpenAI Realtime speech-to-speech. Simply follow the steps listed below.
 
 ## About Protoface
 
@@ -12,9 +12,9 @@ Read the docs at [docs.protoface.com](https://docs.protoface.com/?utm_source=git
 
 To see quickstarts for other platforms, visit the [quickstart repo](https://github.com/protoface-ai/protoface-quickstart).
 
-## Usage
+## Get Started
 
-1. Rename `.env.example` to `.env` and paste your Protoface API key, your LiveKit secrets, and your OpenAI API key and chosen model.
+1. Copy `.env.example` for your local `.env` file and put in your Protoface API key, your LiveKit secrets, and your OpenAI API key and chosen model.
 
 ```js
 PROTOFACE_API_KEY="PROTOFACE-API-KEY"
@@ -27,13 +27,13 @@ NEXT_PUBLIC_OPENAI_REALTIME_MODEL="gpt-realtime-2"
 NEXT_PUBLIC_PROTOFACE_AVATAR_ID="av_stock_001" // Optional (defaults to av_stock_001)
 ```
 
-2. Install packages.
+1. Install the needed packages.
 
 ```bash
 npm install
 ```
 
-3. Run the app.
+1. Run the dev server and head to [the site](http://localhost:3000)
 
 ```bash
 npm run dev
@@ -50,12 +50,8 @@ The app starts an OpenAI Realtime conversation and a Protoface avatar session si
 
 Protoface is the visible and audible avatar output for the experience.
 
-## Characters
+## Avatars
 
-You can swap out the character by finding one that you like in the [Protoface avatar docs](https://docs.protoface.com/guides/avatars?utm_source=github&utm_medium=referral&utm_campaign=github_docs&utm_content=protoface-quickstart-vapi), or create your own.
+Find avatars you like or create your own on [the Protoface dashboard](https://app.protoface.com?utm_source=github&utm_medium=referral&utm_campaign=github_docs&utm_content=protoface-quickstart-openai). Replace the `.env` value for `NEXT_PUBLIC_PROTOFACE_AVATAR_ID` to swap the stock avatar with one of your choosing.
 
-`av_stock_001` `av_stock_002` `av_stock_003` `custom_avatar_id`
-
-## Deploy on Vercel
-
-An easy way to deploy your avatar interaction is to use the [Vercel Platform](https://vercel.com/new?filter=next.js).
+Alternatively, find the API spec for creating, retrieving, and maintaing avatars at [docs.protoface.com](https://docs.protoface.com/guides/avatars?utm_source=github&utm_medium=referral&utm_campaign=github_docs&utm_content=protoface-quickstart-openai).
