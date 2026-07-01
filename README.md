@@ -1,4 +1,4 @@
-# Protoface Quickstart for Open AI Realtime
+# Protoface Quickstart for OpenAI Realtime
 
 This quickstart is the easiest way to serve a Protoface Avatar connected to OpenAI Realtime speech-to-speech. Simply follow the steps listed below.
 
